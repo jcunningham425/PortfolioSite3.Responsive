@@ -1,0 +1,366 @@
+.header{
+    background-color: whitesmoke;
+    position:fixed;
+    height:3.125em;
+    width:100%;
+    top:0;
+    z-index: 99;
+}
+
+.scroll{
+    background-color: darkgrey;
+    position:absolute;
+    top:3.125em;
+    bottom:0;
+    width:100%;
+}
+
+.block{
+    height:100%;
+    width: 100%;
+}
+
+.block1{
+    background-image: url("images/skyline4.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.block2 {
+    background-image: url("images/Bean.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.block3{
+    background-image: url("images/ChiFlag.jpg");
+    background-size:50%;
+    background-position: center;
+}
+
+.block4{
+    background-image: url("images/ChiLights.jpg");
+    background-size: 100%;
+
+}
+
+.block5{
+    background-image: url("images/records.jpg");
+    background-size: 95%;
+    background-position: center;
+
+}
+
+.right{
+    float:right;
+}
+
+
+.links{
+    margin-right: 1.10em;
+    padding-top: 1.3em;
+}
+
+
+.inline {
+    display: inline;
+}
+
+
+.name{
+    font-family: "Helvecta", serif;
+    font-size: 3.125em;
+    margin:auto;
+    text-align: center;
+    color:aliceblue;
+    padding-top: 0.5em;
+}
+
+.name2{
+    font-family: "Helvecta", serif;
+    font-size: 1.875em;
+    margin:auto;
+    margin-top:25em;
+    text-align: center;
+    color:aliceblue;
+}
+
+
+.comingsoon{
+    font-family: "Helvecta", serif;
+    font-size: 4.375em;
+    padding-top: 1.5em;
+    padding-left: 7.7em;
+    color:aliceblue;
+}
+
+.profpic{
+    height: 31.25em;
+    width: 17.5em;
+    border: 0.9375em solid black;
+    display: block;
+    margin: auto;
+}
+
+.profpic2wrapper{
+    padding-top: 50px;
+}
+
+.text{
+    background-color:rgba(255,255,255,.85);
+    border:0.0625em;
+    color: black;
+    line-height: 1.44;
+    padding:50px;
+    border-radius:0.5em;
+
+}
+
+.info1{
+    margin: auto;
+    display: block;
+    padding: 50px;
+}
+
+.info1wrapper{
+    padding: 50px;
+}
+
+.info2{
+    position:absolute;
+    width:25%;
+    height:60%;
+    margin-top:6.25em;
+    margin-left: 10em;
+}
+
+.info2wrapper{
+
+}
+
+.info3{
+    position:absolute;
+    width: 40%;
+    height:60%;
+    margin-top:6.25em;
+    margin-left:44.375em;
+}
+
+.info3wrapper{
+
+}
+
+.contact{
+    position:absolute;
+    background-color: rgba(255,255,255,.8);
+    width: 62.5em;
+    height:28.125em;
+    margin-top:6.25em;
+    margin-left:12.5em;
+    border-radius:0.5em;
+
+}
+
+.contactleft{
+    background-color: grey;
+    width:25em;
+    height:18.75em;
+    float:left;
+    margin-top: 3.125em;
+    margin-left: 3.125em;
+    border-radius:0.5em;
+
+}
+
+.contactright{
+    background-color: grey;
+    width:25em;
+    height:18.75em;
+    float:right;
+    margin-top: 3.125em;
+    margin-right: 3.125em;
+    border-radius:0.5em;
+
+}
+
+.nameinput{
+    width:22.5em;
+    height:2.1875em;
+    font-size: 1em;
+    margin-top: 1.875em;
+    margin-left: 0.625em;
+    border-radius:0.5em;
+
+}
+
+.messageinput{
+    width:21.875em;
+    height:16.25em;
+    margin-left: 1.25em;
+    margin-top: 0.9375em;
+    border-radius:0.5em;
+    font-size: 1em;
+
+}
+
+.submit{
+    width:6.25em;
+    height:3.125em;
+    margin-right: 1.25em;
+    float:right;
+    margin-top: 1.25em;
+    background-color:royalblue;
+    color:#ffffff;
+}
+
+
+.linkedin{
+    height:3.75em;
+    width:3.75em;
+}
+
+
+.facebook{
+    height:3.75em;
+    width:3.75em;
+
+}
+
+.github{
+    height:3.75em;
+    width:3.75em;
+}
+
+.dribbble{
+    height:3.75em;
+    width:3.75em;
+}
+
+@font-face {
+    font-family: "abz";
+    src: url(Fonts/ABeeZee-Regular.otf);
+}
+
+@font-face {
+    font-family: "sinkinsans";
+    src: url(Fonts/SinkinSans.otf);
+}
+
+
+.gmail{
+    font-family:"abz";
+    font-size: 3.125em;
+    margin-left:3.125em;
+}
+
+.emblem{
+    float:left;
+    height:3.125em;
+    width:3.125em;
+    margin-left:0.9375em;
+}
+
+.emblem2{
+    height:9.375em;
+    width:9.375em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.emblemwrapper{
+    margin:auto;
+    text-align: center;
+    color:aliceblue;
+    padding-top: 7.5em;
+}
+
+.headername{
+    font-family:sinkinsans;
+    margin-left:5em;
+    font-size:1.375em;
+    margin-top: 0.625em;
+}
+
+.thankyou{
+    font-family: sinkinsans;
+    margin-top:1.5625em;
+    margin-left:1.5625em;
+    font-size: 1.875em;
+}
+
+
+.profpic3{
+    margin-top: 8.125em;
+    margin-left: 37.5em;
+    height:18.75em;
+    width:15.625em;
+}
+
+.info4{
+    position:absolute;
+    width:50%;
+    height:70%%;
+    margin-top: 1.875em;
+    margin-left:23.125em;
+}
+
+.bio{
+    font-family: sinkinsans;
+    margin-left:8em;
+
+}
+
+.sinkinsans{
+    font-family: sinkinsans;
+}
+
+.sinkinsans2{
+    font-family: sinkinsans;
+    line-height: 2em;
+}
+
+.questions{
+    font-family: sinkinsans;
+    line-height: 2em;
+    color: dodgerblue;
+}
+
+.biobackground{
+    background-image: url("images/Beach2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height:5em;
+}
+
+.biofooter{
+    margin-top: 81.25em;
+    background-color: #1b1b1b;
+    padding:3rem 0;
+    width: 100%;
+}
+
+.homefooter{
+    margin-top: 0em;
+    background-color: #1b1b1b;
+    padding:3rem 0;
+    width: 100%;
+}
+
+
+.copyright{
+    color:aliceblue;
+    font-family: sinkinsans;
+    text-align: center;
+    font-size: 0.75em;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi){
+    .emblem2{
+        margin-left:780;
+    }
+
+}
+
+
