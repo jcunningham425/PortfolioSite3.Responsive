@@ -1,0 +1,145 @@
+@media screen and (max-width: 480px) {
+    .emblem{
+        visibility: hidden;}
+
+    .headername{
+        visibility: hidden;}
+
+    .info4{
+        width: 90%;
+        margin:auto;
+        margin-left:5%;
+        margin-right:5%;
+   }
+
+    .profpic3{
+        margin-left:27%;
+  }
+
+    .bio{
+        margin-left:20%;
+    }
+
+    .biofooter{
+        margin-top: 1500px;
+    }
+
+    .header{
+        font-size:.9em;
+    }
+
+    .profpic2wrapper{
+        margin-left: 10%;
+    }
+
+    .profpic{
+        width:45%;
+        margin-left: 0;
+        display:inline;
+    }
+
+
+    .info1{
+        width:60%;
+        margin-left:48%;
+        margin-top: -120%;
+    }
+
+    .info2{
+        height: 40%;
+        width:80%;
+        margin-left:8%;
+        margin-top:3%;
+        font-size:.9em;
+}
+
+    .text{
+    padding:3%;
+    }
+
+    .skills{
+        font-size:1.5em;
+        margin-top:0;
+    }
+
+
+
+    .info3{
+        margin-top:60%;
+        width:80%;
+        height:40%;
+        margin-left:8%;
+    }
+
+    .comingsoon{
+        margin-left: 10%;
+
+    }
+
+    .contact{
+        width:80%;
+        margin-left: 10%;
+    }
+
+    .submit{
+        width:40%;
+    }
+
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .biofooter{
+        margin-top:2000px;
+    }
+    .headername{
+        visibility:hidden;
+    }
+
+    .profpic{
+        width:38%;
+        margin-left: 0;
+        display:inline;
+    }
+
+    .info1{
+        width:60%;
+        margin-left:48%;
+        margin-top: -95%;
+    }
+
+    .info2{
+        height: 40%;
+        width:80%;
+        margin-left:8%;
+        margin-top:3%;
+        font-size:.9em;
+    }
+
+    .info3{
+        margin-top:50%;
+        width:80%;
+        height:40%;
+        margin-left:8%;
+    }
+
+    .skills{
+        font-size:1.5em;
+        margin-top:0;
+    }
+
+    .comingsoon{
+        margin-left: 20%;
+    }
+
+    .contact{
+        width:80%;
+        margin-left: 10%;
+    }
+
+    .submit{
+        width:40%;
+    }
+
+
+}
